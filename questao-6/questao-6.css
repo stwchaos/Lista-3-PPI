@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    height: 100vh;
+  }
+
+  .box {
+    display: flex;
+    background-color: rgb(122, 255, 144);
+    border: 1px solid rgb(12, 95, 4);
+    color: rgb(12, 95, 4);
+    align-items: center;
+    justify-content: center;
+  }

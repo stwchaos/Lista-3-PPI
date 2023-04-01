@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+  }
+  
+.col-1 {
+    width: 25%;
+    background-color: rgb(252, 138, 138);
+  }
+  
+.col-2 {
+    flex: 1;
+    background-color: rgb(155, 155, 248);
+  }
+
+.col-3 {
+    width: 25%;
+    background-color: rgb(241, 241, 133);
+}
+
+body {
+    background-color: black;
+}
